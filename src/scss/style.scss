@@ -27,6 +27,7 @@ img {
     max-width: 325px;
     background-size: cover;
     object-fit: cover;
+    margin-left: -31px;
 }
 
 .header {
@@ -706,8 +707,8 @@ img {
 }
 
 .products .product__item {
-    flex-basis: calc(25% - 30px);
-    margin-left: 30px;
+    flex-basis: calc(17% - 35px);
+    margin-left: 28px;
     // animation-delay: 1s;
 }
 
@@ -733,8 +734,18 @@ img {
     }
 
     &:nth-child(4),
-    &:nth-child(8) {
+    &:nth-child(11) {
         animation-delay: 1s;
+    }
+
+    &:nth-child(9),
+    &:nth-child(12) {
+        animation-delay: 1.3s;
+    }
+
+    &:nth-child(8),
+    &:nth-child(10) {
+        animation-delay: 1.6s;
     }
 
     &-img {
@@ -1204,8 +1215,8 @@ img {
             font-family: "icomoon";
             color: #ffffff;
             font-size: 20px;
-            top: 11px;
-            left: 13px;
+            top: 8px;
+            left: 17px;
         }
     }
 }
